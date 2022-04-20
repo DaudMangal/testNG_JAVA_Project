@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>TestNG:  Different testng Feature Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Different testng Feature Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 18 15:29:29 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>57 seconds (57250 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.GoogleTest.gmailLinkTest()'><b>gmailLinkTest</b><br>Test class: com.test.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.GoogleTest@4fb3ee4e</td></tr>
+<tr>
+<td title='com.test.InvocationCountTest.sum()'><b>sum</b><br>Test class: com.test.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.InvocationCountTest@6404f418</td></tr>
+<tr>
+<td title='com.test.InvocationCountTest.sum()'><b>sum</b><br>Test class: com.test.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.InvocationCountTest@6404f418</td></tr>
+<tr>
+<td title='com.test.GoogleTest.googleTitleTest()'><b>googleTitleTest</b><br>Test class: com.test.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.GoogleTest@4fb3ee4e</td></tr>
+<tr>
+<td title='com.test.InvocationCountTest.sum()'><b>sum</b><br>Test class: com.test.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.InvocationCountTest@6404f418</td></tr>
+<tr>
+<td title='com.test.GoogleTest.test3()'><b>test3</b><br>Test class: com.test.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.GoogleTest@4fb3ee4e</td></tr>
+<tr>
+<td title='com.test.InvocationCountTest.sum()'><b>sum</b><br>Test class: com.test.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.InvocationCountTest@6404f418</td></tr>
+<tr>
+<td title='com.test.TestNGFeature.searchPageTest()'><b>searchPageTest</b><br>Test class: com.test.TestNGFeature</td>
+<td></td>
+<td>0</td>
+<td>com.test.TestNGFeature@23c30a20</td></tr>
+<tr>
+<td title='com.test.InvocationCountTest.sum()'><b>sum</b><br>Test class: com.test.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.InvocationCountTest@6404f418</td></tr>
+<tr>
+<td title='com.test.GoogleTitleTest.googleLogoTest()'><b>googleLogoTest</b><br>Test class: com.test.GoogleTitleTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.GoogleTitleTest@316bcf94</td></tr>
+<tr>
+<td title='com.test.InvocationCountTest.sum()'><b>sum</b><br>Test class: com.test.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.InvocationCountTest@6404f418</td></tr>
+<tr>
+<td title='com.test.InvocationCountTest.sum()'><b>sum</b><br>Test class: com.test.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.InvocationCountTest@6404f418</td></tr>
+<tr>
+<td title='com.test.InvocationCountTest.sum()'><b>sum</b><br>Test class: com.test.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.InvocationCountTest@6404f418</td></tr>
+<tr>
+<td title='com.test.TestNGFeature.registPageTest()'><b>registPageTest</b><br>Test class: com.test.TestNGFeature</td>
+<td></td>
+<td>0</td>
+<td>com.test.TestNGFeature@23c30a20</td></tr>
+<tr>
+<td title='com.test.TestNGBasics.googleTitleTest()'><b>googleTitleTest</b><br>Test class: com.test.TestNGBasics</td>
+<td></td>
+<td>0</td>
+<td>com.test.TestNGBasics@36916eb0</td></tr>
+<tr>
+<td title='com.test.InvocationCountTest.sum()'><b>sum</b><br>Test class: com.test.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.InvocationCountTest@6404f418</td></tr>
+<tr>
+<td title='com.test.GoogleTitleTest.googleTitleTest()'><b>googleTitleTest</b><br>Test class: com.test.GoogleTitleTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.GoogleTitleTest@316bcf94</td></tr>
+<tr>
+<td title='com.test.InvocationCountTest.sum()'><b>sum</b><br>Test class: com.test.InvocationCountTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.InvocationCountTest@6404f418</td></tr>
+<tr>
+<td title='com.test.TestNGFeature.homePageTest()'><b>homePageTest</b><br>Test class: com.test.TestNGFeature</td>
+<td></td>
+<td>0</td>
+<td>com.test.TestNGFeature@23c30a20</td></tr>
+<tr>
+<td title='com.test.GoogleTest.test2()'><b>test2</b><br>Test class: com.test.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.GoogleTest@4fb3ee4e</td></tr>
+<tr>
+<td title='com.test.TestNGBasics.searchTest()'><b>searchTest</b><br>Test class: com.test.TestNGBasics</td>
+<td></td>
+<td>0</td>
+<td>com.test.TestNGBasics@36916eb0</td></tr>
+<tr>
+<td title='com.test.GoogleTest.test1()'><b>test1</b><br>Test class: com.test.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.GoogleTest@4fb3ee4e</td></tr>
+<tr>
+<td title='com.test.TestNGBasics.googleLogoTest()'><b>googleLogoTest</b><br>Test class: com.test.TestNGBasics</td>
+<td></td>
+<td>0</td>
+<td>com.test.TestNGBasics@36916eb0</td></tr>
+<tr>
+<td title='com.test.TestNGFeature.loginTest()'><b>loginTest</b><br>Test class: com.test.TestNGFeature</td>
+<td></td>
+<td>0</td>
+<td>com.test.TestNGFeature@23c30a20</td></tr>
+<tr>
+<td title='com.test.ExceptionTimeOutTest.test1()'><b>test1</b><br>Test class: com.test.ExceptionTimeOutTest</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;100A&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:660)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.test.ExceptionTimeOutTest.test1(ExceptionTimeOutTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace987249254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace987249254'><pre>java.lang.NumberFormatException: For input string: &quot;100A&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:660)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.test.ExceptionTimeOutTest.test1(ExceptionTimeOutTest.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.ExceptionTimeOutTest@47faa49c</td></tr>
+<tr>
+<td title='com.test.GoogleTest.googleLogoTest()'><b>googleLogoTest</b><br>Test class: com.test.GoogleTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.GoogleTest@4fb3ee4e</td></tr>
+</table><p>
+</body>
+</html>
